@@ -1,0 +1,30 @@
+application:
+  name: PG Guardian
+  version: 0.1.0
+  environment: development
+
+database:
+  host: 127.0.0.1
+  port: 5432
+  dbname: postgres
+  user: postgres
+
+security:
+  use_pgpass: true
+
+postgresql:
+  version: 17
+  distribution: community
+
+logging:
+  level: INFO
+  directory: logs/
+
+collector:
+  interval: 60
+
+notification:
+  enabled: false
+
+ai:
+  enabled: false
