@@ -1,11 +1,34 @@
 # PG Guardian
 
-AI-powered PostgreSQL Operations Assistant
+AI-powered PostgreSQL Operations & Diagnostics Platform
 
-## Goal
+## Overview
 
-A PostgreSQL DBA toolkit for health checks, diagnostics, and AI-assisted analysis.
+PG Guardian is an open-source toolkit for PostgreSQL DBAs and database engineers.
 
-## Status
+It collects PostgreSQL and operating system metrics, evaluates database health, detects potential issues, and provides actionable recommendations through rule-based analysis and optional AI assistance.
 
-🚧 Sprint 0 - Environment Setup
+## Features
+
+- PostgreSQL Metrics Collection
+- System Metrics Collection
+- Health Check Engine
+- Rule-based Diagnostics
+- AI Advisor (Optional)
+- Report Generator
+- Notification Service
+- REST API
+- HA Monitoring
+- Log Analyzer
+
+## Technology Stack
+
+- Python 3.9
+- PostgreSQL Community 17
+- psycopg 3
+- Rocky Linux 9
+- YAML
+
+## Documentation
+
+Detailed design documents are available in the `docs/` directory.
